@@ -6,7 +6,7 @@ nav ul {
 }
 
 nav li a {
-	color: blue;
+	color: brown;
 	font-size: 1em;
 	margin: 0 1em 0 0;
 	text-decoration: none;
@@ -14,7 +14,7 @@ nav li a {
 	font-family: Verdana, Geneva, sans-serif; 
 }
 nav li a:hover {
-	background: blue;
+	background: #C18121;
 	color: blue;
 	transform: scale(1.2) rotate(-5deg);
 }
@@ -42,7 +42,7 @@ li a {
 
 
 body {
-  background-color:#407EF1;
+  background-color:#BF7323;
 }
 
 #caja {
@@ -53,44 +53,43 @@ body {
 
 .titulo {
 	font-family: Verdana, Geneva, sans-serif;
-	background:-webkit-linear-gradient(top, white, #0CF);
+	background:-webkit-linear-gradient(top, white, #C18121);
 	width: 50%;
 	border-radius: 10px;
 	margin: 15px auto;
 	text-align: center;
 	padding: 15px;
-	color: blue;
-	text-shadow: white 3px 2px 3px;
+	color: #C18121;
+	text-shadow: black 3px 2px 3px;
 	font-size: 3vw; 
 
 }
 
 h1 {
 	font: Verdana Lucida Handwriting;
-	background:-webkit-linear-gradient(top, white, #0CF);
+	background:-webkit-linear-gradient(top, white, #C18121);
 	color: black;
 	font-family: Verdana, Geneva;
-	background:-webkit-linear-gradient(top, white, #0CF);
+	background:-webkit-linear-gradient(top, white, #C18121);
 	width: 50%;
 	border-radius: 10px;
 	margin: 15px auto;
 	text-align: center;
 	padding: 15px;
-	color: blue;
+	color: #C18121;
 	box-shadow: black 5px 5px 10px;
-	text-shadow: white 3px 2px 3px;
+	text-shadow: black 3px 2px 3px;
 	
 }
 
-
 body {
-	background-image: url("../imagenes/partituras.jpg");
+	background-image: linear-gradient(rgba(95,95,95,.5), rgba(95,95,95,.5)),url("../imagenes/score.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	padding:50px 0px 0px 0px;
 	z-index:0;
-	height: 850px;
-} 
+	background-size: cover;
+}
 
 .ex1 {
 	font-family: Verdana Lucida Handwriting; 
@@ -107,11 +106,20 @@ body {
 	
 }
 
-
 footer {
 	color: black;
 	text-align: center;
-	background-color: #8480C4;
+	background-color: #ABA9A6;
+	padding-bottom: 1%;
+}
+
+.footer a {
+	text-decoration: none; 
+	color: #C18121;
+}
+
+.footer a:hover {
+	color: blue;
 }
 
 .text-center {
@@ -141,12 +149,12 @@ figure img:hover {
 } -->
 
 aside {
-	color: purple;
+	color: brown;
 	font-family: Candara;
 	font-size: 16px;
 	padding: 50px 100px;
 	border-radius: 20px;
-	background-color: lightyellow; 
+	background-color: #FCF4AB; 
 	height: 600px;
 	text-align: justify;
 
@@ -170,7 +178,6 @@ aside:hover {
 	background-color: transparent;
 }
 
-
 }
 .row2 {
 	margin-left: 80px;
@@ -180,13 +187,13 @@ aside:hover {
 	width: 100%;
 	height: 45%;
 	text-align: left;
-	background-color: rgba(223, 179, 170, 0.8);
+	background-color: #C18121;
+	margin-bottom: 20%;
+	background-color: rgba(225, 157, 55, 0.7);
 	border-radius: 10%;
 	-webkit-box-shadow: -7px 11px 18px -4px rgba(0,0,0,0.75);
 	-moz-box-shadow: -7px 11px 18px -4px rgba(0,0,0,0.75);
-	box-shadow: -7px 11px 18px -4px rgba(0,0,0,0.75);
-	margin-bottom: 20%;
-}
+	box-shadow: -7px 11px 18px -4px rgba(0,0,0,0.75);}
 .parr {
 	margin-left: 20%;
 	margin-right: 20%;
@@ -227,7 +234,7 @@ table {
 
 } 
 .table1 {
-	color: blue;
+	color: #B5710C;
 	border-radius: 20px;
 	width: 70%;
 	z-index: 1; 
@@ -247,10 +254,23 @@ h4 {
 	padding-right: 20px;
 }
 
+.margen1 {
+	padding-left: 15px;
+	padding: 15px;
+	text-align: justify;
+}
+
 .foto {
 	padding: 10px;
 	padding-right: 10px;
 	padding-top: 1px;
+}
+
+.foto2 {
+	padding: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	width: 30%;
 }
 
 address a {
@@ -258,8 +278,17 @@ address a {
 }
 
 .row2 a {
-	color: #011FB6;
-	font-size: 20px;
+	color: #082858;
+	font-size: 22px;
 	font-family: Verdana;
+	padding: 20px;
+}
+
+.borde {
+	padding: 20px;
+}
+
+h4 {
+	padding: 8px;
 }
 
