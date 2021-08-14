@@ -115,7 +115,7 @@ footer {
 
 .footer a {
 	text-decoration: none; 
-	color: #C18121;
+	color: #BF8710;
 }
 
 .footer a:hover {
@@ -292,3 +292,7 @@ h4 {
 	padding: 8px;
 }
 
+.audio {
+	height: 50px;
+	padding-top: 20px;
+}
